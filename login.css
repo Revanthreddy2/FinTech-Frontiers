@@ -1,0 +1,61 @@
+header {
+    width: 100%;
+    background-color: burlywood;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+form {
+    align-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+table {
+    margin-left: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+}

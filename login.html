@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Frontiers</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fintech Frontiers</h1>
+    </header>
+    <form method="POST">
+        <label for="startdate">Start Date:</label><br>
+        <input type="text" name="startdate" pattern:"\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
+        <br>
+        <label for="enddate">End Date:</label><br>
+        <input type="text" name="enddate" pattern:"\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" required>
+        <br>
+        <label for="tickers">Select a Ticker</label>
+        <select name="tickers" required>
+            <option value="">Select a option</option>
+            <option value="AAPL">AAPL</option>
+            <option value="MSFT">MSFT</option>
+            <option value="AMZN">AMZN</option>
+            <option value="AVGO">AVGO</option>
+            <option value="META">META</option>
+        </select>
+        <br>
+        <button>submit</button>
+    </form>
+    <br>
+    <br>
+
+    <div class="container">
+        <table class="table">
+            <thead>MSFT Trailing Period Performance</thead>
+            <tbody>
+                <tr>
+                    <th colspan="3">cumulative Return</th>
+                    <th colspan="3">1M</th>
+                    <th colspan="3">3M</th>
+                    <th colspan="3">6M</th>
+                    <th colspan="3">1Y</th>
+                    <th colspan="3">2Y</th>
+                    <th colspan="3">3Y</th>
+                    <th colspan="3">5Y</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Stock</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+                <tr>
+                    <th colspan="3">BenchMark</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Active Return</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="3">Annualized Return</th>
+                    <th colspan="3">1M</th>
+                    <th colspan="3">3M</th>
+                    <th colspan="3">6M</th>
+                    <th colspan="3">1Y</th>
+                    <th colspan="3">2Y</th>
+                    <th colspan="3">3Y</th>
+                    <th colspan="3">5Y</th>
+                </tr>
+                <tr>
+                    <th colspan="3">Stock</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+                <tr>
+                    <th colspan="3">BenchMark</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Active Return</th>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                    <td colspan="3">{{ }}</td>
+                </tr>
+            </tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
